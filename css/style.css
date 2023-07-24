@@ -1,4 +1,52 @@
-h2 {
-    color: red;
-    font-size: 50px;
+header {
+    padding: 20px 0;
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    border: 2px dotted darkgreen;
+}
+.logo {
+    font-size: 60px;
+    color: blueviolet;
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+li {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+a {
+    color: teal;
+    font-size: 28px;
+}
+.s-1 {
+    margin-top: 108px;
+}
+.mshobeli {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    margin: 10px;
+    z-index: 10;
+}
+.shvili {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
 }
