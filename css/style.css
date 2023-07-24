@@ -9,25 +9,24 @@ header {
 .container {
     width: 1170px;
     margin: 0 auto;
-    border: 2px dotted darkgreen;
 }
 .logo {
     font-size: 60px;
     color: blueviolet;
     display: inline-block;
     margin-right: 100px;
-    vertical-align: middle;
 }
 nav {
     display: inline-block;
-    vertical-align: middle;
 }
 li {
     display: inline-block;
     margin-right: 50px;
+}
+.logo, nav, li {
     vertical-align: middle;
 }
-a {
+li a {
     color: teal;
     font-size: 28px;
 }
@@ -41,12 +40,31 @@ a {
     background-color: lightblue;
     margin: 10px;
     z-index: 10;
+    border-radius: 12px;
 }
 .shvili {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 50%;
+    left: 50%;
     background-color: brown;
     width: 200px;
     height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.s-2 {
+    margin-bottom: 200px;
+}
+.wrapper {
+    border: 1px dotted darkmagenta;
+    display: inline-block;
+    position: relative;
+}
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: teal;
+    font-size: 23px;
 }
